@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Learning</title>
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--[if lt IE 9]>
+    <script src="bs/html5shiv.min.js"></script>
+    <script src="bs/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/holder.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">图片</h1>
+    <ul>
+        <li>
+            <dl>
+                <dt>图片</dt>
+                <dd>img</dd>
+                <dd>img[src=holder.js/100px200] : 顶位图，宽100%，高200px</dd>
+                <dd>img.img-responsive : 图片支持响应式 </dd>
+                <dd>img.center-block : 使响应式图片居中 </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>图片样式</dt>
+                <dd>img.img-rounded : 圆角</dd>
+                <dd>img.img-circle : 圆</dd>
+                <dd>img.img-thumbnail : 缩略（阴影）</dd>
+            </dl>
+        </li>
+    </ul>
+
+
+    <div class="row">
+        <img src="holder.js/50px200" class="img-responsive center-block">
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <img src="holder.js/100px200">
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <img src="holder.js/100px200" class="img-rounded">
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <img src="holder.js/100px200" class="img-circle">
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <img src="holder.js/100px200" class="img-thumbnail">
+        </div>
+    </div>
+</div>
+
+<script src="bs/js/bootstrap.js"></script>
+</body>
+</html>

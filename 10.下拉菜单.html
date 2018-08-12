@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Learning</title>
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--[if lt IE 9]>
+    <script src="bs/html5shiv.min.js"></script>
+    <script src="bs/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/holder.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">下拉菜单</h1>
+    <ul>
+        <li>
+            <dl>
+                <dt>下拉菜单</dt>
+                <dd>.dropdown、.dropup</dd>
+                <dd>button.dropdown[data-toggle="dropdown"]>ul.dropdown-menu</dd>
+                <dd>ul.dropdown-menu</dd>
+                <dd>.dropdown-menu-right ：菜单右对齐</dd>
+                <dd>.dropdown-menu>.dropdown-header : 菜单组标题</dd>
+                <dd>.dropdown-menu>.divider[role="separator"] : 菜单组分割线</dd>
+                <dd>.dropdown-menu>.disabled : 菜单禁用</dd>
+            </dl>
+        </li>
+    </ul>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="dropdown">
+                <button class="btn btn-default" data-toggle="dropdown">更多 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">网址</li>
+                    <li><a href="javascript:void(0)">百度</a></li>
+                    <li><a href="javascript:void(0)">Google</a></li>
+                    <li><a href="javascript:void(0)">网易</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">English</li>
+                    <li><a href="javascript:void(0)">baidu</a></li>
+                    <li><a href="javascript:void(0)">Google</a></li>
+                    <li><a href="javascript:void(0)">163</a></li>
+                    <li class="disabled"><a href="javascript:void(0)">disabled</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="dropdown pull-right">
+                <button class="btn btn-default" data-toggle="dropdown">更多 <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="javascript:void(0)">百度</a></li>
+                    <li><a href="javascript:void(0)">Google</a></li>
+                    <li><a href="javascript:void(0)">网易</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="dropup">
+                <button class="btn btn-default" data-toggle="dropdown">更多 <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)">百度</a></li>
+                    <li><a href="javascript:void(0)">Google</a></li>
+                    <li><a href="javascript:void(0)">网易</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="dropup pull-right">
+                <button class="btn btn-default" data-toggle="dropdown">更多 <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="javascript:void(0)">百度</a></li>
+                    <li><a href="javascript:void(0)">Google</a></li>
+                    <li><a href="javascript:void(0)">网易</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="bs/js/bootstrap.js"></script>
+</body>
+</html>

@@ -24,5 +24,9 @@ div.container : 固定宽度并支持响应式布局
 div.container-fluid : 100% 宽度，占据全部视口
 ```
 
+### 关闭按钮
+```
+<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+```
 
 

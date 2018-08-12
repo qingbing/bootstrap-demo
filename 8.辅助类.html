@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Learning</title>
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--[if lt IE 9]>
+    <script src="bs/html5shiv.min.js"></script>
+    <script src="bs/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/holder.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">辅助类</h1>
+    <ul>
+        <li>
+            <dl>
+                <dt>文本颜色</dt>
+                <dd>.text-muted、.text-primary、.text-info、.text-success、.text-warning、.text-danger</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>背景颜色</dt>
+                <dd>.bg-primary、.bg-info、.bg-success、.bg-warning、.bg-danger</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>快速浮动和居中</dt>
+                <dd>.pull-left、.pull-right</dd>
+                <dd>.clearfix : 清除浮动</dd>
+                <dd>.center-block : 块级居中</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>显示和隐藏</dt>
+                <dd>.show : 显示</dd>
+                <dd>.hide : 隐藏</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>关闭按钮</dt>
+                <dd>button.close[type="button"][aria-label="close"]>span[aria-hidden="true"]>{&amp;times;}</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>下三角</dt>
+                <dd>span.caret</dd>
+            </dl>
+        </li>
+    </ul>
+    <h3 style="background-color:#5bc0de">I am a list<span class="caret"></span> <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button></h3>
+    <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-muted">text-muted</p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-primary">text-primary</p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-info">text-info</p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-success">text-success</p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-warning">text-warning</p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <p class="text-danger">text-danger</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-primary">bg-primary</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-info">bg-info</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-success">bg-success</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-warning">bg-warning</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-danger">bg-danger</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-danger pull-left">pull-left</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-danger pull-right">pull-right</div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-danger pull-left">pull-left</div>
+        <div class="clearfix"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2 bg-danger">bg-danger</div>
+    </div>
+</div>
+
+<script src="bs/js/bootstrap.js"></script>
+</body>
+</html>
